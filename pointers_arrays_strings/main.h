@@ -1,6 +1,8 @@
 #ifndef MY_MAIN_H
 #define MY_MAIN_H
 
+#include <stddef.h>
+
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
