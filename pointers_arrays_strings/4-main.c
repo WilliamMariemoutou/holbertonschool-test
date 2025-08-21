@@ -1,19 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 
-void reverse_array(int *a, int n);
-
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-    int arr[] = {1, 2, 3, 4, 5};
-    int i;
+    char *s = "hello, world";
+    char *f = "world";
+    char *t;
 
-    reverse_array(arr, 5);
-
-    for (i = 0; i < 5; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    return 0;
+    t = _strpbrk(s, f);
+    printf("%s\n", t);
+    return (0);
 }
